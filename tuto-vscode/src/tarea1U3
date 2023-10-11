@@ -1,0 +1,9 @@
+public class treaU3 {
+    public static void main(String[] arg){
+        int contador = 1;
+        for (int i = 1; i <= 100; i++) {
+            System.out.printf("%-5d%5d%n",contador, 101 . contador);
+            contador++;
+        }
+    }
+}
