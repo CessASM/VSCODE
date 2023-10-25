@@ -1,0 +1,28 @@
+# Definir las funciones para las operaciones matematicas
+def suma(a, b):
+    return a + b
+def resta(a, b):
+    return a- b
+def multiplicacion(a, b):
+    return a * b
+def divicion(a, b):
+    if b != 0:
+        return a / b
+else:return "Error de divicion entre cero"
+# Solicitar al usuario la operacion y los numeros
+operacion = input("Ingrese la operacion que desa realizar (+, -, *, /): ")
+numero1 = float(input("Ingrese el primer numro: "))
+numero2 = float(input("Ingrese el segundo numero: "))
+# Realizar la operacion seleccionada
+if opercion == "+":
+    resultado = suma(numero1, numero2)
+elif opercion == "-":
+    resultado = resta(numero1, numero2)
+elif opercion == "*":
+    resultado = multiplicacion(numero1, numero2)
+elif opercion == "/":
+    resultado = divicion(numero1, numero2)
+else:
+    resultado = "Opercion no valida"
+# Mostrar resultado
+print("El resultado es:", resultado)

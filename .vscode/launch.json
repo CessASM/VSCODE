@@ -1,0 +1,64 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "practica1",
+            "request": "launch",
+            "mainClass": "Practicas.practica1",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "practica2",
+            "request": "launch",
+            "mainClass": "Practicas.practica2",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "practica3",
+            "request": "launch",
+            "mainClass": "Practicas.practica3",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "Exam1U3",
+            "request": "launch",
+            "mainClass": "tareas.Exam1U3",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "tarea1",
+            "request": "launch",
+            "mainClass": "tareas.tarea1",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "tarea2",
+            "request": "launch",
+            "mainClass": "tareas.tarea2",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "Calcuradora",
+            "request": "launch",
+            "mainClass": "trabajos.Calcuradora",
+            "projectName": "VSCODE_55ebc4ad"
+        }
+    ]
+}
