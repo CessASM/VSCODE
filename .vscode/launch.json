@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "intento1",
+            "request": "launch",
+            "mainClass": "trabajos.intento1",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
             "name": "Practica6",
             "request": "launch",
             "mainClass": "Practicas.Practica6",
