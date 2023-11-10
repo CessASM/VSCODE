@@ -1,4 +1,4 @@
-package trabajos;
+package java.trabajos;
 import java.util.Scanner;
 public class intento1 {
 public static void main(String[] args) {

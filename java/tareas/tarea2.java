@@ -1,4 +1,4 @@
-package tareas;
+package Ejercisios.tareas;
 import java.util.Scanner;
 public class tarea2 {
     public static void main(String[] args) {
