@@ -1,6 +1,6 @@
-package java.trabajos;
+package Ejercisios;
 import java.util.Scanner;
-public class Calcuradora {
+public class calculadora {
 public static void main(String[] args) {
     try (Scanner scanner = new Scanner(System.in)) {
         System.out.print("Ingrese el primer numero: ");

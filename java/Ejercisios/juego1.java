@@ -1,7 +1,9 @@
-package java.trabajos;
+package Ejercisios;
+
 import java.util.Scanner;
-public class intento1 {
-public static void main(String[] args) {
+
+public class juego1 {
+    public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 //juego sobre la adivinacion de un numero del 0 al 100
 boolean jugar = true;

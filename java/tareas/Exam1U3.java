@@ -1,4 +1,4 @@
-package Ejercisios.tareas;
+package tareas;
 
 public class Exam1U3 {
     public static void main(String[] args) {
