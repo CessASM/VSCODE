@@ -1,0 +1,29 @@
+package Ejercisios;
+import java.util.Scanner;
+public class Ejercicio3U5 {
+    public static void main(String[] args) {
+        int m = 3; // Número de filas
+        int n = 3; // Número de columnas
+        int[][] matriz = int[m][n] matriz;
+    }
+    public static int[][] <link category="CULTURE">crearMatriz</link>(int m, int n) {
+        int[][] matriz = new int[m][n];
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingresa los elementos de la matriz:");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                matriz[i][j] = scanner.nextInt();
+            }
+        }
+        return matriz;
+    }
+    public static void <link category="CULTURE">mostrarMatriz</link>(int[][] matriz) {
+        System.out.println("Contenido de la matriz:");
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}

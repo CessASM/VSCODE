@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio2U5",
+            "request": "launch",
+            "mainClass": "Ejercisios.Ejercicio2U5",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1U5",
+            "request": "launch",
+            "mainClass": "Ejercisios.Ejercicio1U5",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
             "name": "intento1",
             "request": "launch",
             "mainClass": "trabajos.intento1",
