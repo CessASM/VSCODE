@@ -1,32 +1,38 @@
 package tareas;
 
 public class Tarea1U5 {
-    public static int encontrarMinimo(int[] arreglo) {
-        int minimo = arreglo[0]; // Asignamos el primer elemento como el valor mínimo inicial
-        int[] arregloEnteros = {5, 2, 8, 1, 9};
-        int minimoEnteros = encontrarMinimo(arregloEnteros);
-        for (int i = 1; i < arreglo.length; i++) {
-            if (arreglo[i] < minimo) {
-                minimo = arreglo[i]; 
-                // Actualizamos el valor mínimo si encontramos un elemento más pequeño
-                
-            }
-            System.out.println("El valor mínimo en el arreglo de enteros es: " + minimoEnteros);
+    public static int findMinValue(int[] array) {
+        if (array.length == 0) {
+            throw new IllegalArgumentException("El arreglo no puede estar vacío");
         }
-        return minimo;
+        int minValue = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < minValue) {
+                minValue = array[i];
+            }
+        }
+        return minValue;
     }
-    public static double encontrarMinimo(double[] arreglo) {
-        double minimo = arreglo[0];
-        double[] arregloDoubles = {3.2, 1.5, 6.7, 2.4};
-        double minimoDoubles = encontrarMinimo(arregloDoubles);
-        // Asignamos el primer elemento como el valor mínimo inicial
-        for (int i = 1; i < arreglo.length; i++) {
-            if (arreglo[i] < minimo) {
-                minimo = arreglo[i];
-                // Actualizamos el valor mínimo si encontramos un elemento más pequeño
-            }
-            System.out.println("El valor mínimo en el arreglo de doubles es: " + minimoDoubles);
+    // Método estático para encontrar el valor más pequeño en un arreglo de doubles
+    public static double findMinValue(double[] array) {
+        if (array.length == 0) {
+            throw new IllegalArgumentException("El arreglo no puede estar vacío");
         }
-        return minimo;
+        double minValue = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < minValue) {
+                minValue = array[i];
+            }
+        }
+        return minValue;
+    }
+    public static void main(String[] args) {
+        int[] intArray = {3, 1, 4, 1, 5, 9, 2, 6};
+        double[] doubleArray = {3.14, 2.71, 1.618, 0.577, 2.718};
+
+        int minIntValue = findMinValue(intArray);
+        double minDoubleValue = findMinValue(doubleArray);
+        System.out.println("El valor más pequeño en el arreglo de enteros es: " + minIntValue);
+        System.out.println("El valor más pequeño en el arreglo de doubles es: " + minDoubleValue);
     }
 }

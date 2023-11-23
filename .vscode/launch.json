@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Practica1U5",
+            "request": "launch",
+            "mainClass": "Practicas.Practica1U5",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "Tarea3U5",
+            "request": "launch",
+            "mainClass": "tareas.Tarea3U5",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "Tarea1U5",
+            "request": "launch",
+            "mainClass": "tareas.Tarea1U5",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "Tarea2U5",
+            "request": "launch",
+            "mainClass": "tareas.Tarea2U5",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio2U5",
             "request": "launch",
             "mainClass": "Ejercisios.Ejercicio2U5",
