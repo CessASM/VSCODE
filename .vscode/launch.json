@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "U5P4",
+            "request": "launch",
+            "mainClass": "Practicas.U5P4",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "U5P3",
+            "request": "launch",
+            "mainClass": "Practicas.U5P3",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
+            "name": "U5P2",
+            "request": "launch",
+            "mainClass": "Practicas.U5P2",
+            "projectName": "VSCODE_55ebc4ad"
+        },
+        {
+            "type": "java",
             "name": "Practica1U5",
             "request": "launch",
             "mainClass": "Practicas.Practica1U5",
